@@ -24,6 +24,7 @@ const[data, setData]=useState([])
   }, [])
   
   const Styled=styled.div`
+  
   h1{
   font-family: 'Monoton', cursive;
   text-align:center;
@@ -31,7 +32,7 @@ const[data, setData]=useState([])
   color:#6A5ACD;
   :hover{
     color:#FFFFF0;
-    background-color: black;
+    background-color:black;
     }
   }
   
@@ -42,7 +43,7 @@ const[data, setData]=useState([])
       <style>
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 </style>
-      <h1 className="Header">STAR &nbsp; WARS &nbsp; CHARACTERS &nbsp;       &gt;</h1>
+      <h1 className="Header">STAR &nbsp; WARS &nbsp; CHARACTERS &nbsp;&nbsp;&nbsp; &nbsp; &gt;</h1>
       {
       data.map((i)=>{
         return <Character key={i.name} data={i}/>
